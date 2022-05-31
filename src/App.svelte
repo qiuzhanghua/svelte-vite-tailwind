@@ -1,10 +1,17 @@
 <script>
 	import './styles.css'
-	import logo from './assets/svelte.png'
+	import {onMount} from 'svelte'
+ 	import logo from './assets/svelte.png'
 	import Counter from './lib/Counter.svelte'
 	import {Button} from '@opentj/jui'
-
-	let value = ''
+	
+	const toggleDarkMode = function () {
+		document.querySelector("html").classList.toggle("dark");
+		console.log(document.querySelector("html").classList);
+	}
+	onMount(() => {
+		toggleDarkMode()
+	})
 
 </script>
 
@@ -12,13 +19,13 @@
 	<img src={logo} alt="Svelte Logo"/>
 	<Counter/>
 	<p></p>
-
+	<div>Hello</div>
 	<Button
 			class="rounded-full bg-green-400 px-2 py-1 hover:bg-blue-400"
 			style="border: solid"
 			on:click={() => {
-			alert('Clicked!');
-		}}>Click Me
+				toggleDarkMode();
+		}}>Toggle Light/Dark
 	</Button
 	>
 
