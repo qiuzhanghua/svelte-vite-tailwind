@@ -7,7 +7,7 @@
 	
 	const toggleDarkMode = function () {
 		document.querySelector("html").classList.toggle("dark");
-		console.log(document.querySelector("html").classList);
+		// console.log(document.querySelector("html").classList);
 	}
 	onMount(() => {
 		toggleDarkMode()
@@ -19,9 +19,9 @@
 	<img src={logo} alt="Svelte Logo"/>
 	<Counter/>
 	<p></p>
-	<div>Hello</div>
+	<div>Hello Tailwind CSS!</div>
 	<Button
-			class="rounded-full bg-green-400 px-2 py-1 hover:bg-blue-400"
+			class="mt-4 rounded-full bg-green-400 px-2 py-1 hover:bg-blue-400"
 			style="border: solid"
 			on:click={() => {
 				toggleDarkMode();
