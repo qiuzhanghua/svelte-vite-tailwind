@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
-    "target": "es5",
-    "module": "es5",
+    "target": "es2015",
+    "module": "es2015",
     "importsNotUsedAsValues": "error",
     "isolatedModules": true,
     "resolveJsonModule": true,
