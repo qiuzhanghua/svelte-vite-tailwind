@@ -31,7 +31,7 @@
     on:click={() => toggleDarkMode()}
   >
     Toggle Light/Dark
-    <Switch class="ml-3 mr-0 h-5 w-5" />
+    <Switch class="ml-3 mr-1 mt-[0.125rem] h-5 w-5" />
   </Button>
 
   <!--	https://tailwindcss-forms.vercel.app/-->
