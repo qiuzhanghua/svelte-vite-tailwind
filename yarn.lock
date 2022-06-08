@@ -52,10 +52,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@opentj/jui@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@opentj/jui/-/jui-0.0.4.tgz#258db87b6f002b4d46593144733ff59fd779269d"
-  integrity sha512-5cHVtGNE7BGT9YbtaeZQd4FStEJH7BGIUPkxQcUeBtmm7iBA9C6jeJ5qvcDrJaFF34AwiiR+cJ/lJD0R5S0zYw==
+"@opentj/jui@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmmirror.com/@opentj/jui/-/jui-0.0.5.tgz#7124fc28ff8280cb0862f289fcfe888683eb30f1"
+  integrity sha512-rxtxDcAznHqmb9ZyGJWQ3BjbvS/iNmKXP1MMkj8PZGpoFSAmLuSwVGo2zn+5NlKznvBjCHFFu0FZWQwoXxfWhQ==
 
 "@rollup/pluginutils@^4.2.1":
   version "4.2.1"
